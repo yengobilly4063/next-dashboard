@@ -24,7 +24,8 @@
             "@app/*": ["./app/*"],
             "@styles/*": ["./app/ui/styles/*"],
             "@ui/*": ["./app/ui/*"],
-            "@fonts/*": ["./app/ui/fonts/*"]
+            "@fonts/*": ["./app/ui/fonts/*"],
+            "@lib/*": ["./app/lib/*"]
         }
     },
     "include": [
