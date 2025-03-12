@@ -3,7 +3,7 @@ import Pagination from '@ui/invoices/pagination';
 import Table from '@ui/invoices/table';
 import { CreateInvoice } from '@ui/invoices/buttons';
 import { lusitana } from '@ui/fonts/fonts';
-import { InvoiceSkeleton, InvoicesTableSkeleton } from '@ui/skeletons';
+import { InvoicesTableSkeleton } from '@ui/skeletons';
 import { Suspense } from 'react';
 import { fetchInvoicesPages } from '@lib/data';
 
