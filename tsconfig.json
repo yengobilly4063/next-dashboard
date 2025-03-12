@@ -20,12 +20,11 @@
         ],
         "baseUrl": ".",
         "paths": {
-            "@/*": ["./*"],
-            "@app/*": ["./app/*"],
             "@styles/*": ["./app/ui/styles/*"],
             "@ui/*": ["./app/ui/*"],
             "@fonts/*": ["./app/ui/fonts/*"],
-            "@lib/*": ["./app/lib/*"]
+            "@lib/*": ["./app/lib/*"],
+            "@hooks/*": ["./app/hooks/*"]
         }
     },
     "include": [

@@ -8,6 +8,20 @@ interface Breadcrumb {
     active?: boolean;
 }
 
+export const createInvoiceBreadcrumbs: Breadcrumb[] = [
+    { label: 'Invoices', href: '/dashboard/invoices' },
+    { label: 'Create Invoice', href: '/dashboard/invoices/create', active: true },
+];
+
+export const editInvoiceBreadcrumbs = (id: string): Breadcrumb[] => [
+    { label: 'Invoices', href: '/dashboard/invoices' },
+    {
+        label: 'Edit Invoice',
+        href: `/dashboard/invoices/${id}/edit`,
+        active: true,
+    },
+];
+
 export default function Breadcrumbs({ breadcrumbs }: { breadcrumbs: Breadcrumb[] }) {
     return (
         <nav aria-label="Breadcrumb" className="mb-6 block">
